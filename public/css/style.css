@@ -1,0 +1,86 @@
+:root{
+    --primary-color: #10CF8A;
+    --secondary-color: #EDFFF8;
+}
+/* Root */
+a.btn-primary{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+}
+a.btn-primary:hover{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+}
+a.btn-secondary{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: none;
+}
+a.btn-secondary:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: none;
+}
+button.btn-primary{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+}
+button.btn-primary:hover{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+}
+button.btn-secondary{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: none;
+}
+button.btn-secondary:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: none;
+}
+.bg-secondary{
+    background: var(--secondary-color) !important;
+}
+.btn-link{
+    color: var(--primary-color);
+}
+.btn-link:hover{
+    color: var(--primary-color);
+}
+
+/* Navbar */
+.navbar .nav-item .nav-link{
+    color: var(--primary-color);
+}
+
+/* Jumbotron */
+#hero .jumbotron.bg-hero{
+    background: url('../img/landing/bg-hero.png');
+    height: 759px;
+    margin-top: -25px;
+}
+
+/* Infopanel */
+#infopanel .card .card-body .rounded-circle{
+    background-color: var(--secondary-color);
+    padding: 16px;
+}
+
+/* Wisata */
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    background: none;
+    color: var(--primary-color);
+    font-weight: 900;
+}
+#wisata .nav{
+    display: block;
+}
+#wisata .nav-link{
+    color: var(--primary-color);
+    padding: 0.5rem 0rem;
+}
